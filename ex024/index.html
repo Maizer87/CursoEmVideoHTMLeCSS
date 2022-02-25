@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+        .tnome {
+            background-color: red;
+        }
+        .tsexo {
+            background-color: yellow;
+        }
+        .tprofissao {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>exemplo de colunas selecionadas</caption>
+        <table>
+            <colgroup>
+            <col class="tnome">
+            <col class="tsexo" span="2">
+            <!--<col class="tidade">-->
+            <col class="tprofissao">
+            </colgroup>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissao</th>
+            </tr>
+            <tr>
+                <td>Joana</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Professora</td>
+            </tr>
+            <tr>
+                <td>José</td>
+                <td>M</td>
+                <td>55</td>
+                <td>Pedreiro</td>
+            </tr>
+            <tr>
+                <td>Lurdes</td>
+                <td>F</td>
+                <td>53</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Joao</td>
+                <td>M</td>
+                <td>35</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Joao</td>
+                <td>M</td>
+                <td>35</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Joao</td>
+                <td>M</td>
+                <td>35</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Joao</td>
+                <td>M</td>
+                <td>35</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Joao</td>
+                <td>M</td>
+                <td>35</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Joao</td>
+                <td>M</td>
+                <td>35</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Joao</td>
+                <td>M</td>
+                <td>35</td>
+                <td>Programador</td>
+            </tr>
+        </table>
+    </table>
+</body>
+</html>
